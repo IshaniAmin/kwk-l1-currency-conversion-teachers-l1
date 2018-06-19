@@ -16,7 +16,7 @@ def jpy_to_usd(money)
 end
 
 def usd_to_gbp(money)
-
+  momey * 0.75
 end
 
 def gbp_to_usd(money)
