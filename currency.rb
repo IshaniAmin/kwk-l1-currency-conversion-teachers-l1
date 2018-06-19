@@ -24,9 +24,9 @@ def gbp_to_usd(money)
 end
 
 def usd_to_aud(money)
-
+  momey * 1.35
 end
 
-def aud_to_usd
-
+def aud_to_usd(money)
+  money * 0.74
 end
