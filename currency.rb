@@ -6,9 +6,11 @@ end
 def usd_to_jpy(money)
   money * 110.15
 end
+
 def usd_to_gbp(money)
   money * 0.75
 end
+
 def usd_to_aud(money)
   money * 1.35
 end
