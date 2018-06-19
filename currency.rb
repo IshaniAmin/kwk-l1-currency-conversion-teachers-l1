@@ -50,11 +50,9 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-  #code here
+  usd_to_eur(money)
 when 2
-  #code here
-when 3
-  #code here
+  usd_to_jpy(money)
 when 4
   #code here
 when 5
