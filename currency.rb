@@ -50,19 +50,19 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-  usd_to_eur(money)
+  usd_to_eur(choice)
 when 2
-  usd_to_jpy(money)
+  usd_to_jpy(choice)
 when 4
-  usd_to_gbp(money)
+  usd_to_gbp(choice)
 when 5
-  usd_to_aud(money)
+  usd_to_aud(choice)
 when 6
-  eur_to_usd(money)
+  eur_to_usd(choice)
 when 7
-  gbp_to_usd(money)
+  gbp_to_usd(choice)
 when 8
-  aud_to_usd(money)
+  aud_to_usd(choice)
 else
   puts "Invalid input, exiting..."
 end
