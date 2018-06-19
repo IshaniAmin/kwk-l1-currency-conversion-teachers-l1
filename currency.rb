@@ -4,5 +4,5 @@ def usd_to_eur(money)
 end
 
 def eur_to_usd(money)
-  money * 1.16
+  money / 0.86
 end
