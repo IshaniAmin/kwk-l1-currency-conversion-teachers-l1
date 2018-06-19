@@ -7,23 +7,23 @@ def eur_to_usd(money)
   money * 1.16
 end
 
-def usd_to_jpy
+def usd_to_jpy(money)
+  money * 110.15
+end
+
+def jpy_to_usd(money)
 
 end
 
-def jpy_to_usd
+def usd_to_gbp(money)
 
 end
 
-def usd_to_gbp
+def gbp_to_usd(money)
 
 end
 
-def gbp_to_usd
-
-end
-
-def usd_to_aud
+def usd_to_aud(money)
 
 end
 
